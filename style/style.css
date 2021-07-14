@@ -1,0 +1,194 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+/* top banner degins */
+.TopBanner{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+    display: flex;
+    margin-bottom: 70px;
+}
+.leftSide{
+    width: 50%;
+}
+.rightSide{
+    width: 50%;
+}
+.rightSide img{
+    margin-top: 135px;
+    margin-bottom: 86px;
+    margin-right: 141px;
+    width: 80%;
+}
+h1{
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+    line-height: 80px;
+    font-size: 64 px;
+    font-weight: 700px;
+    margin-top: 153px;
+    margin-left: 106px;
+    margin-right: 152px;
+}
+.linkDegin{
+    margin-top: 81px;
+    margin-left: 156px;
+    margin-bottom: 169px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+}
+a:hover{
+    background-color: #1f0103;
+}
+.fa-arrow-right{
+    color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+}
+/* player card */
+.container{
+    margin-left: 180px;
+    margin-right: 210px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    border: 15px solid #FFFFFF;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 50px gray;
+}
+h3{
+    font-weight: 300px;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+.plyFont{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    font-weight: 300px;
+}
+.player img{
+    width: 330px;
+    height: 256px;
+}
+/* footer Degins */
+.footerWork{
+    margin-top: 158px;
+    margin-left: 475px;
+    margin-right: 481.13px;
+    margin-bottom: 63px;
+    width: 483.87px;
+    height: 213px;
+}
+.footerWork img{
+    width: 483.87px;
+    height: 110px;
+}
+.SocalIcon {
+    margin-left: 156.94px;
+    margin-right: 156.94px;
+}
+i{
+    width: 32px;
+    height: 32px;
+    color: #969BAB;
+}
+.copyRight{
+    margin-top: 20px;
+    margin-left: 123.94px;
+    margin-right: 123.94px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400px;
+    color: #000000;
+}
+/* work on mediascreen */
+@media only screen and (max-width: 688px) {
+.TopBanner{
+    width: 100%;
+    height: 695px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.leftSide{
+    width: 100%;
+}
+.rightSide{
+    width: 100%;
+}
+h1{
+    margin-top: 112px;
+    margin-left: 16px;
+    margin-right: 66px;
+    margin-bottom: 30px;
+    height: 138px;
+    width: 278px;
+}
+.linkDegin{
+    margin-left: 19px;
+    margin-right: 173px;
+    margin-bottom: 50px;
+    height: 44px;
+    width: 168px;
+}
+.rightSide img{
+    margin-left: 15px;
+    margin-right: 16px;
+    margin-bottom: 61.83px;
+    height: 259.17px; 
+    width: 80%;
+}
+.container{
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    grid-template-columns: repeat(1,1fr);
+}
+.footerWork{
+    margin-top: 60px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 29px;
+}
+.footerWork img{
+    width: 300px;
+    height: 63px;
+}
+.SocialIcon {
+    margin-left: 95px;
+    margin-right: 95px;
+}
+.copyRight{
+    margin-top: 20px;
+    margin-left: 62px;
+    margin-right: 62px;
+    margin-bottom: 187px;
+    height: 31px;
+    width: 236px;
+}
+  }
+  @media only screen and (min-width: 688px) and
+  (max-width: 992px){
+
+.container{
+    width: 100%;
+    margin-left: 300px;
+    margin-right: 300px;
+    grid-template-columns: repeat(2,1fr);
+}
+  }
